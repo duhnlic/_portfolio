@@ -13,8 +13,13 @@ function App() {
         <header className="App-header">
           <h1>This Site is Under Construction</h1>
           <h3>&copy; Brian Stewart 2021</h3>
-          <a href="https://github.com/duhnlic">Github</a>
-          <a href="https://www.linkedin.com/in/bpstew8au/">Linkedin</a>
+          <div className="link1">
+            <a href="https://github.com/duhnlic" className="link">Github</a>
+          </div>
+          <div className="link2">
+            <a href="https://www.linkedin.com/in/bpstew8au/" className="link">Linkedin</a>
+          </div>
+
           
         </header>
       </Router>

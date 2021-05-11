@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Background from './components/Background/Background'
+import Footer from './components/Footer/Footer'
 import {BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           
         </header>
       </Router>
+      <Footer/>
     </div>
   );
 }

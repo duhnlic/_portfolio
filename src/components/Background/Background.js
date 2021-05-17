@@ -10,7 +10,7 @@ export default function Background(){
                 muted 
                 loop
                 >
-                <source src='https://bstewart-portfolio.s3.us-east-2.amazonaws.com/Iridescent_4K_Motion_Background_Loop.mp4' type="video/mp4"/>
+                <source src='https://bstewart-portfolio.s3.us-east-2.amazonaws.com/Portfolio+Background+video+(large)+(1).mp4' type="video/mp4"/>
             </video>
         </div>
     )

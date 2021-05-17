@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-a{
-  opacity: 100%;
+button {
+  padding: 20px;
 }

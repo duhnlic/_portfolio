@@ -34,10 +34,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #fff;
 }
 
 .App-header {
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,20 @@
   color: white;
   padding: 17px;
   border-radius: 50%;
+}
+
+.about-me {
+  color: #fff;
+  align-content: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  transform: translateX(15%);
+  text-align: start;
+  width: 75%;
 }
 
 a{

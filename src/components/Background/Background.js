@@ -2,7 +2,7 @@
 
 export default function Background(){
     return(
-        <div>
+        <div className="background-container">
             <video 
                 id="video-bg" 
                 className="background" 

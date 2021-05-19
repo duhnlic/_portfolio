@@ -14,6 +14,21 @@
   }
 }
 
+.navbar{
+  display: flex;
+  justify-content: center
+}
+
+.navlink {
+  margin: 20px;
+  color: #fff;
+}
+
+.home-nav {
+  margin: 0px 20px;
+  color: #000;
+}
+
 .background{
   position: fixed;
   left: 50%;
@@ -24,7 +39,9 @@
   object-fit: cover;
   z-index: -1000;
   transform: translateX(-48.5%);
+  opacity: 1;
 }
+
 
 .background-credit{
   font-size: 9px;
@@ -80,7 +97,7 @@ a{
 
 a:visited { 
   text-decoration: none; 
-  color: white; 
+  /* color: white;  */
  }
 
 a:hover { 
@@ -104,15 +121,14 @@ a:active {
 }
 
 .project-gallery{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.459);
-  width: 90%;
-  transform: translateX(4%);
-  border-radius: 15px;
+  /* width: 90%; */
+  /* transform: translateX(4%); */
+  /* border-radius: 15px; */
 }
 
 .project-indiv{
@@ -120,6 +136,10 @@ a:active {
   align-items: column;
   align-content: center;
   margin: 15px 0px;
+}
+
+.radio-app {
+  padding: 260px;
 }
 
 .language-icons{
@@ -142,6 +162,7 @@ a:active {
 #django-icon{
   margin: 3px 0px;
 }
+
 
 @keyframes App-logo-spin {
   from {

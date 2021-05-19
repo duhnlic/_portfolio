@@ -8,9 +8,9 @@ export default function Header(){
                 <h4>&copy;</h4>
             </div>
             <div>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="about">About</NavLink>
-                <NavLink to="projects">Projects</NavLink>
+                <NavLink to="/" className="home-nav">Home</NavLink>
+                <NavLink to="about" className="home-nav">About</NavLink>
+                <NavLink to="projects" className="home-nav">Projects</NavLink>
             </div>
         </div>
     )

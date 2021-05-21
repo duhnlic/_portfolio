@@ -13,7 +13,8 @@ code {
 }
 
 button {
-  padding: 20px;
+  padding: 1.5px 4px;
+  margin: 0px 10px;
 }
 
 /* h2 {

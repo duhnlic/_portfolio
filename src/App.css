@@ -45,6 +45,7 @@
 
 .background-credit{
   font-size: 9px;
+  color: rgb(58, 58, 58)
 }
 
 .header{
@@ -64,22 +65,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.link1{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(222, 213, 250);
-  color: white;
-  padding: 17px;
-  border-radius: 50%;
-}
 
 .about-me {
   color: #fff;
   align-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me > h2 {
+  color: #fff;
+}
+
+.description {
+  font-size: 17px;
+  transform: translateY(10%);
 }
 
 .about-content {
@@ -89,6 +88,30 @@
   transform: translateX(15%);
   text-align: start;
   width: 75%;
+}
+
+.profile-pic {
+  margin-right: 20px;
+}
+
+.language-icons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  /* transform: translateX(50%); */
+  padding: 15px;
+  margin: 25px 0px;
+  /* border-radius: 15px; */
+}
+
+.language-indiv{
+  margin: 3px 3px;
+}
+
+#django-icon{
+  margin: 3px 0px;
 }
 
 a{
@@ -101,34 +124,31 @@ a:visited {
  }
 
 a:hover { 
-  text-decoration: none; color:rgb(152, 193, 241); 
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(178, 209, 245), 0 0 2px rgb(178, 209, 245), 0 0 4px rgb(137, 182, 233), 0 0 5px rgb(178, 209, 245), 0 0 6px rgb(178, 209, 245);
+  text-decoration: none; color:rgb(255, 0, 0); 
+  text-shadow: 0 0 10px rgb(179, 110, 110), 0 0 20px rgb(233, 150, 117), 0 0 30px rgb(246, 210, 125), 0 0 2px rgb(245, 211, 118), 0 0 4px rgb(182, 151, 66), 0 0 5px rgb(231, 204, 82), 0 0 6px rgb(236, 169, 81);
 }
 a:focus {
-   text-decoration: none; color:rgb(75, 26, 45); 
+   text-decoration: none; color:rgb(71, 16, 88); 
 }
 a:active {
-   text-decoration: none; color:rgb(53, 37, 82); 
+   text-decoration: none; color:rgb(73, 55, 109); 
 }
 
-.link2{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(222, 213, 250);
-  padding: 20px;
-  border-radius: 50%;
-  transform: translateY(15%);
+.project-page {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* color: #fff; */
 }
 
 .project-gallery{
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.459);
   /* width: 90%; */
   /* transform: translateX(4%); */
   /* border-radius: 15px; */
+  
+}
+
+.portfolio-item {
+  margin: 30px;
 }
 
 .project-indiv{
@@ -138,30 +158,28 @@ a:active {
   margin: 15px 0px;
 }
 
-.radio-app {
-  padding: 260px;
+
+.carousel-title {
+  color: #fff;
 }
 
-.language-icons{
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  justify-content: space-evenly;
-  align-items: center;
-  transform: translateX(50%);
-  background-color: rgba(255, 255, 255, 0.459);
-  padding: 15px;
-  margin: 25px 0px;
-  border-radius: 15px;
+.carousel-description {
+  color: #fff;
 }
 
-.language-indiv{
-  margin: 3px 3px;
+
+.portfolio-item {
+  /* padding: 260px; */
 }
 
-#django-icon{
-  margin: 3px 0px;
+.btn {
+  margin: 0px 5px 4px 5px;
+  border-radius: 7px;
+  background-color: rgb(197, 133, 81);
+  color: rgb(223, 204, 204);
 }
+
+
 
 
 @keyframes App-logo-spin {

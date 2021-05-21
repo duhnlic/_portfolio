@@ -3,7 +3,6 @@
 
 .App {
   text-align: center;
-  /* margin: 15px 0px; */
 }
 
 .App-logo {
@@ -161,7 +160,6 @@ a{
 
 a:visited { 
   text-decoration: none; 
-  /* color: white;  */
  }
 
 a:hover { 
@@ -181,11 +179,7 @@ a:active {
 }
 
 .project-gallery{
-  padding: 45px;
-  /* width: 90%; */
-  /* transform: translateX(4%); */
-  /* border-radius: 15px; */
-  
+  padding: 45px;  
 }
 
 .portfolio-item {
@@ -210,7 +204,6 @@ a:active {
 
 
 .portfolio-item {
-  /* padding: 260px; */
 }
 
 .btn {

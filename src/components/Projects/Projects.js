@@ -34,7 +34,7 @@ export default function Projects(){
                     <img src="https://i.imgur.com/W0JXAL6.png" className="project-indiv" alt="radio-screenshot" style={contentStyle}></img>
                     </div>
                     <div>
-                    <img src="https://bstewart-portfolio.s3.us-east-2.amazonaws.com/img_placeholder.JPG" className="project-indiv" alt="radio-screenshot" style={contentStyle}></img>
+                    <img src="https://i.imgur.com/UtuG308.png" className="project-indiv" alt="radio-screenshot" style={contentStyle}></img>
                     </div>
                     </Carousel>
                     <h4 className="carousel-title">Pebl Radio: Internet Radio App</h4>

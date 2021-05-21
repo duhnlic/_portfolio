@@ -9,7 +9,6 @@ export default function AboutMe(){
     return(
         <div className="about-me">
             <NavBar/>
-            <h2>About</h2>
             <div className="about-content">
                 <img src="https://bstewart-portfolio.s3.us-east-2.amazonaws.com/drrk%3Agreen-sun.GIF" className="profile-pic" width="350" height="450" alt="portrait"></img>
                 <div className="about-section">

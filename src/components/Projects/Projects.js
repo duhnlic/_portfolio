@@ -6,7 +6,7 @@ import { Row, Col } from 'antd';
 
 const contentStyle = {
     height: '200px',
-    width: '350px',
+    width: '335px',
     color: '#fff',
     lineHeight: '260px',
     contentAlign: 'center',
@@ -38,7 +38,7 @@ export default function Projects(){
                     </div>
                     </Carousel>
                     <h4 className="carousel-title">Pebl Radio: Internet Radio App</h4>
-                    <p className="carousel-description">A radio streaming </p>
+                    <p className="carousel-description">React | Mongo | Express | Node</p>
                     <button
                     className="btn" 
                     onClick={()=>{
@@ -83,7 +83,7 @@ export default function Projects(){
                     </div>
                     </Carousel>
                     <h4 className="carousel-title">betterQuest: Personal Betterment App</h4>
-                    <p className="carousel-description"></p>
+                    <p className="carousel-description">React | Django</p>
                     <button
                     className="btn" 
                     onClick={()=>{
@@ -121,7 +121,7 @@ export default function Projects(){
                     </div>
                     </Carousel>
                     <h4 className="carousel-title">Tungsten: Internet Bookmarks App</h4>
-                    <p className="carousel-description"></p>
+                    <p className="carousel-description">React | Mongo | Express | Node</p>
                     <button
                     className="btn" 
                     onClick={()=>{
@@ -156,7 +156,7 @@ export default function Projects(){
                         </div>
                         </Carousel>
                         <h4 className="carousel-title">BS Weather: Weather Info App</h4>
-                        <p className="carousel-description"></p>
+                        <p className="carousel-description">HTML | CSS | JS</p>
                         <button
                         className="btn" 
                         onClick={()=>{
@@ -186,7 +186,7 @@ export default function Projects(){
                         </div>
                     </Carousel>
                         <h4 className="carousel-title">Giphy Searcher: A Giphy Search Engine</h4>
-                        <p className="carousel-description"></p>
+                        <p className="carousel-description">HTML | CSS | JS</p>
                         <button
                         className="btn" 
                         onClick={()=>{
@@ -214,7 +214,7 @@ export default function Projects(){
                         </div>
                     </Carousel>
                         <h4 className="carousel-title">To Do List App</h4>
-                        <p className="carousel-description"></p>
+                        <p className="carousel-description">HTML | CSS | JS</p>
                         <button
                         className="btn" 
                         onClick={()=>{
@@ -241,8 +241,8 @@ export default function Projects(){
                         <img src="https://i.imgur.com/y4fTQbE.png" className="project-indiv" alt="first-screenshot" style={contentStyle}></img>
                         </div>
                         </Carousel>
-                        <h4 className="carousel-title">Salvage Op: A point and click Expanse RPG Game</h4>
-                        <p className="carousel-description"></p>
+                        <h4 className="carousel-title">Salvage Op: Expanse RPG Game</h4>
+                        <p className="carousel-description">HTML | SASS | JS</p>
                         <button
                         className="btn" 
                         onClick={()=>{
@@ -270,20 +270,13 @@ export default function Projects(){
                             </div>
                             </Carousel>
                             <h4 className="carousel-title">Portfolio</h4>
-                            <p className="carousel-description"></p>
+                            <p className="carousel-description">React</p>
                             <button
                             className="btn" 
                             onClick={()=>{
                                 window.open('');
                                 }
                             }>Front End
-                            </button>
-                            <button
-                                className="btn" 
-                                onClick={()=>{
-                                    window.open('');
-                                }}>
-                                Live Version
                             </button>
                         </div>
                     </Col>

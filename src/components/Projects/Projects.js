@@ -11,6 +11,8 @@ const contentStyle = {
     lineHeight: '260px',
     contentAlign: 'center',
     margin: 'auto',
+
+
 };
 
 
@@ -20,8 +22,8 @@ export default function Projects(){
         <div className="project-page">
             <NavBar/>
             <div className="project-gallery">
-            <Row>
-                <Col span={6}>
+            <Row gutter={[16, 40]}>
+                <Col span={12}>
                     <div className="portfolio-item">
                     <Carousel autoplay>
                     <div>
@@ -69,7 +71,7 @@ export default function Projects(){
                     </button>      
                 </div>
                 </Col>
-                <Col span={6}>
+                <Col span={12}>
                 <div className="portfolio-item">
                 <Carousel autoplay>
                     <div>
@@ -107,7 +109,7 @@ export default function Projects(){
                     </button>  
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={12}>
                     <div className="portfolio-item">
                     <Carousel autoplay>
                     <div>
@@ -145,7 +147,7 @@ export default function Projects(){
                     </button>  
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={12}>
                     <div className="portfolio-item">
                     <Carousel autoplay>
                         <div>
@@ -174,8 +176,8 @@ export default function Projects(){
                         </div>
                         </Col>
                         </Row>
-                        <Row>
-                        <Col span={6}>
+                        <Row gutter={[16, 40]}>
+                        <Col span={12}>
                         <div className="portfolio-item">
                         <Carousel autoplay>
                         <div>
@@ -203,7 +205,7 @@ export default function Projects(){
                         </button>  
                         </div>
                         </Col>
-                        <Col span={6}>
+                        <Col span={12}>
                         <div className="portfolio-item">
                         <Carousel autoplay>
                         <div>
@@ -231,7 +233,7 @@ export default function Projects(){
                         </button>
                         </div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={12}>
                     <div className="portfolio-item">
                     <Carousel autoplay>
                         <div>
@@ -259,7 +261,7 @@ export default function Projects(){
                         </button>
                         </div>
                     </Col>
-                    <Col span={6}>
+                    <Col span={12}>
                         <div className="portfolio-item">
                             <Carousel autoplay>
                             <div>

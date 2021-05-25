@@ -9,14 +9,14 @@ export default function Header(){
         <div className="App-header">
             <div className="header">
             <img src={name} width="1200" height="400" className="name" alt="name" />
-                <h4>&copy;</h4>
+                <h4 className="copyright">&copy;</h4>
             </div>
             <div className="home-links">
                 <NavLink to="about" className="home-nav1">
-                    <img src={about} width="150" height="120" className="" alt="name" />
+                    <img src={about} className="about-link" alt="name" />
                 </NavLink>
                 <NavLink to="projects" className="home-nav2">
-                    <img src={projects} width="190" height="150" className="" alt="name" />
+                    <img src={projects} className="project-link" alt="name" />
                 </NavLink>
             </div>
         </div>

@@ -4,11 +4,11 @@ import resume from '../../assets/Brian_Stewart_Resume.pdf'
 import ReactTooltip from 'react-tooltip';
 export default function AboutMe(){
 
-    const linkedin = <img src="https://i.imgur.com/X6FIV55.png" className="contact-icon" width="90px" height="90px" alt="linked-icon"></img>
+    const linkedin = <img src="https://i.imgur.com/X6FIV55.png" className="linkedin-icon" alt="linked-icon"></img>
 
-    const github = <img src="https://i.imgur.com/Eu41Jz0.png" className="contact-icon" width="110px" height="110px" alt="github-icon"></img>
+    const github = <img src="https://i.imgur.com/Eu41Jz0.png" className="contact-icon" alt="github-icon"></img>
 
-    const resumeIcon = <img src="https://i.imgur.com/fXfjqwS.png" className="contact-icon" width="110px" height="110px" alt="resume-icon"></img>
+    const resumeIcon = <img src="https://i.imgur.com/fXfjqwS.png" className="contact-icon" alt="resume-icon"></img>
 
 
     

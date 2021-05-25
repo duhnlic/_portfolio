@@ -16,3 +16,12 @@ button {
   padding: 1.5px 4px;
   margin: 0px 10px;
 }
+
+@media screen and (max-width: 885px){
+
+  body {
+    background: url(https://i.imgur.com/d164gyb.jpg) no-repeat fixed;
+    /* background-size: 415px 812px; */
+  }
+
+}

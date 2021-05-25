@@ -23,6 +23,8 @@
 }
 
 .copyright {
+  position: relative;
+  transform: translate(-340%, -14%);
   color: #fff;
 }
 
@@ -143,13 +145,23 @@
   cursor: pointer;
 }
 
+.linkedin-icon {
+  width: 90px;
+  height: 90px;
+}
+
+.contact-icon {
+  width: 110px;
+  height: 110px;
+}
+
 .language-icons{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  padding: 15px;
+  padding: 15px 15px 300px 15px;
   margin: 65px 0px;
 }
 
@@ -218,10 +230,99 @@ a:active {
 
 
 @media screen and (max-width: 885px){
+
   
   .name {
     width: 90%;
     transform: translate(3%, 8%);
+  }
+
+  .about-content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .linkedin-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact-icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-pic {
+    transform: translateX(5%)
+  }
+
+  .about-x-links {
+    transform: translateX(1%);
+  }
+
+  .background {
+    display: none;
+  }
+
+  .background-info {
+    display: none;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 600px){
+
+  .about-x-links {
+    transform: translateY(20%);
+  }
+
+}
+
+@media screen and (max-width: 415px){
+
+  .App-header {
+    transform: translateY(-15%)
+  }
+
+  .navlink {
+    margin: 20px 5px;
+  }
+  
+  .name {
+    width: 425px;
+    height: 100px;
+    transform: translate(2%, 8%);
+  }
+
+  .home-links {
+    flex-direction: column;
+    transform: translateY(-2%)
+  }
+
+  .home-nav2 {
+    transform: translateY(-10%)
+  }
+
+  .about-link {
+    width: 130px;
+    height: 50px;
+  
+  }
+  
+  .project-link {
+    width: 160px;
+    height: 50px;
+  
+  }
+
+  .description {
+    font-size: 17px;
+    text-align: center;
+    transform: translateY(10%);
+    /* margin-left: 10px; */
   }
 
   .about-content {
@@ -238,12 +339,13 @@ a:active {
     transform: translateX(1%);
   }
 
-}
-
-@media screen and (max-width: 600px){
-
-  .about-x-links {
-    transform: translateY(20%);
+  .background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1000;
+    opacity: 1;
   }
 
 }
@@ -251,7 +353,8 @@ a:active {
 @media screen and (max-width: 380px){
 
   .App-header {
-    transform: translateY(10%)
+    transform: translateY(-5%);
+    z-index: 2000;
   }
 
   .navlink {
@@ -259,7 +362,7 @@ a:active {
   }
   
   .name {
-    width: 460px;
+    width: 420px;
     height: 100px;
     transform: translate(3%, -45%);
   }
@@ -305,33 +408,37 @@ a:active {
   .description {
     text-align: center;
     transform: translateY(-15%);
+    font-size: 15px;
   }
 
   .about-x-links {
-    transform: translate(1%, -80%);
+    transform: translate(1%, -55%);
   }
 
+  .description {
+    transform: translateY(10%)  
+  }
+
+  
   .background{
     position: fixed;
     left: 41%;
-    /* min-width: 100%;
-    min-height: 100%; */
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1000;
-    /* transform: translateX(-49.5%); */
     opacity: 1;
   }
-
+  
 }
 
+
 @media screen and (max-width: 320px){
-
+  
   .App-header {
-    transform: translateY(15%)
+    transform: translateY(-1%)
   }
-
+  
   .navlink {
     margin: 20px 5px;
   }
@@ -341,52 +448,53 @@ a:active {
     height: 100px;
     transform: translate(2%, 8%);
   }
-
+  
   .home-links {
     flex-direction: column;
-    transform: translateY(-12%)
+    transform: translateY(1%)
   }
-
+  
   .home-nav2 {
-    transform: translateY(-50%)
+    transform: translateY(25%)
   }
 
   .about-link {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 40px;
   
   }
   
   .project-link {
     width: 150px;
-    height: 150px;
-  
+    height: 40px;
+    
   }
-
+  
   .about-content {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
-
+  
   .profile-pic {
     transform: translateX(5%)
   }
-
+  
   .about-x-links {
     transform: translateX(1%);
   }
 
+  .copyright {
+    transform: translate(-420%, -12%);
+  }
+  
   .background{
     position: fixed;
     left: 43%;
-    min-width: 103.1%;
-    min-height: 100%;
     width: 103.1%;
     height: 100%;
     object-fit: cover;
     z-index: -1000;
-    transform: translateX(-51%);
     opacity: 1;
   }
 

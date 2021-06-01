@@ -276,7 +276,7 @@ export default function Projects(){
                             <button
                             className="btn" 
                             onClick={()=>{
-                                window.open('https://www.brianpstewart.com/');
+                                window.open('https://github.com/duhnlic/_portfolio');
                                 }
                             }>Front End
                             </button>

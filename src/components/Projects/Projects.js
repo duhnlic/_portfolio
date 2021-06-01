@@ -141,7 +141,7 @@ export default function Projects(){
                     <button
                     className="btn" 
                     onClick={()=>{
-                        window.open('');
+                        window.open('https://tungsten-bookmarks.herokuapp.com/');
                         }
                     }>Live Version
                     </button>  
@@ -169,7 +169,7 @@ export default function Projects(){
                         <button
                         className="btn" 
                         onClick={()=>{
-                            window.open('');
+                            window.open('https://duhnlic.github.io/weather-app/');
                             }
                         }>Live Version
                         </button>  
@@ -199,7 +199,7 @@ export default function Projects(){
                         <button
                         className="btn" 
                         onClick={()=>{
-                            window.open('');
+                            window.open('https://60b41bdfbd34e45ad8483913--hopeful-benz-b1beda.netlify.app/');
                             }
                         }>Live Version
                         </button>  
@@ -227,7 +227,7 @@ export default function Projects(){
                         <button
                         className="btn" 
                         onClick={()=>{
-                            window.open('');
+                            window.open('https://your-toodoos.herokuapp.com/');
                             }
                         }>Live Version
                         </button>
@@ -276,7 +276,7 @@ export default function Projects(){
                             <button
                             className="btn" 
                             onClick={()=>{
-                                window.open('');
+                                window.open('https://www.brianpstewart.com/');
                                 }
                             }>Front End
                             </button>

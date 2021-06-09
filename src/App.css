@@ -70,9 +70,13 @@
   opacity: 1;
 }
 
+.background-info {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 .background-credit{
-  font-size: 9px;
+  font-size: 7.2px;
   color: rgb(58, 58, 58)
 }
 
@@ -162,7 +166,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 15px 15px 300px 15px;
-  margin: 65px 0px;
+  margin-top: 65px;
 }
 
 .language-indiv{

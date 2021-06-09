@@ -26,7 +26,7 @@ export default function Projects(){
         <div className="project-page">
         <NavBar/>
             <div className="project-gallery">
-                <Row gutter={[16, 40]}>
+                <Row gutter={[1, 30]}>
                         <Col span={12}>
                             <div className="portfolio-item">
                                 <Carousel autoplay>
@@ -188,7 +188,7 @@ export default function Projects(){
                             </div>
                         </Col>
                         </Row>
-                        <Row gutter={[16, 40]}>
+                        <Row gutter={[1, 30]}>
                         <Col span={12}>
                         <div className="portfolio-item">
                             <Carousel autoplay>

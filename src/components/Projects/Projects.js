@@ -18,16 +18,6 @@ const contentStyle = {
 
 };
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        '& > *': {
-            margin: theme.spacing(1)
-        },
-    },
-}));
 
 
 export default function Projects(){
@@ -55,7 +45,7 @@ export default function Projects(){
                                 </Carousel>
                                 <h4 className="carousel-title">Pebl Radio: Internet Radio App</h4>
                                 <p className="carousel-description">React | Mongo | Express | Node</p>
-                                <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                                <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                     <Button
                                         className="btn" 
                                         onClick={()=>{
@@ -102,7 +92,7 @@ export default function Projects(){
                                 </Carousel>
                                 <h4 className="carousel-title">betterQuest: Personal Betterment App</h4>
                                 <p className="carousel-description">React | Django</p>
-                                <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                                <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                     <Button
                                         className="btn" 
                                         onClick={()=>{
@@ -142,7 +132,7 @@ export default function Projects(){
                                 </Carousel>
                                 <h4 className="carousel-title">Tungsten: Internet Bookmarks App</h4>
                                 <p className="carousel-description">React | Mongo | Express | Node</p>
-                                <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                                <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                     <Button
                                         className="btn" 
                                         onClick={()=>{
@@ -179,7 +169,7 @@ export default function Projects(){
                                 </Carousel>
                                 <h4 className="carousel-title">BS Weather: Weather Info App</h4>
                                 <p className="carousel-description">HTML | CSS | JS</p>
-                                <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                                <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                     <Button
                                         className="btn" 
                                         onClick={()=>{
@@ -211,7 +201,7 @@ export default function Projects(){
                             </Carousel>
                             <h4 className="carousel-title">Giphy Searcher: A Giphy Search Engine</h4>
                             <p className="carousel-description">HTML | CSS | JS</p>
-                            <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                            <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                 <Button
                                     className="btn" 
                                     onClick={()=>{
@@ -241,7 +231,7 @@ export default function Projects(){
                         </Carousel>
                         <h4 className="carousel-title">To Do List App</h4>
                         <p className="carousel-description">HTML | CSS | JS</p>
-                        <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                        <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                             <Button
                                 className="btn" 
                                 onClick={()=>{
@@ -271,7 +261,7 @@ export default function Projects(){
                         </Carousel>
                         <h4 className="carousel-title">Salvage Op: Expanse RPG Game</h4>
                         <p className="carousel-description">HTML | SASS | JS</p>
-                        <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                        <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                             <Button
                                 className="btn" 
                                 onClick={()=>{
@@ -301,7 +291,7 @@ export default function Projects(){
                             </Carousel>
                             <h4 className="carousel-title">Portfolio</h4>
                             <p className="carousel-description">React</p>
-                            <ButtonGroup variant="contained" color="primary" size="small" aria-label="contained primary button group">
+                            <ButtonGroup orientation="vertical" variant="contained" color="primary" size="small" aria-label="contained primary button group">
                                 <Button
                                     className="btn" 
                                     onClick={()=>{

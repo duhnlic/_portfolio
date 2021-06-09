@@ -8,7 +8,7 @@ export default function Header(){
     return(
         <div className="App-header">
             <div className="header">
-            <img src={name} width="1200" height="400" className="name" alt="name" />
+                <img src={name} width="1200" height="400" className="name" alt="name" />
                 <h4 className="copyright">&copy;</h4>
             </div>
             <div className="home-links">

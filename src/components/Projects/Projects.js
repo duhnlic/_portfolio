@@ -24,9 +24,9 @@ export default function Projects(){
 
     return(
         <div className="project-page">
-            <NavBar/>
+        <NavBar/>
             <div className="project-gallery">
-            <Row gutter={[16, 40]}>
+                <Row gutter={[16, 40]}>
                         <Col span={12}>
                             <div className="portfolio-item">
                                 <Carousel autoplay>

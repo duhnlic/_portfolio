@@ -2,6 +2,8 @@ import Languages from '../Languages/Languages';
 import NavBar from '../NavBar/NavBar'
 import resume from '../../assets/Brian_Stewart_Resume.pdf'
 import ReactTooltip from 'react-tooltip';
+
+
 export default function AboutMe(){
 
     const linkedin = <img src="https://i.imgur.com/X6FIV55.png" className="linkedin-icon" alt="linked-icon"></img>
@@ -10,8 +12,8 @@ export default function AboutMe(){
 
     const resumeIcon = <img src="https://i.imgur.com/fXfjqwS.png" className="contact-icon" alt="resume-icon"></img>
 
+    const connect = <img src="https://i.imgur.com/8UJFfal.png" className="contact-icon" alt="connect-icon"></img>
 
-    
 
     return(
         <div className="about-me">
@@ -39,6 +41,7 @@ export default function AboutMe(){
                         {linkedin}
                         </div>
                         <a href={resume} target="_blank" data-tip="download resume">{resumeIcon}</a>
+                        <a href="mailto:brianphillipstewart@gmail.com" target="_blank" data-tip="email">{connect}</a>
                     </div>
                 </div>
             </div>

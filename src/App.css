@@ -141,7 +141,7 @@
   display: flex;
   align-items: center;
   margin-top: 40px;
-  transform: translateX(-15%)
+  /* transform: translateX(-15%) */
 }
 
 .contact-link {
@@ -158,6 +158,7 @@
   width: 110px;
   height: 110px;
 }
+
 
 .language-icons{
   display: flex;

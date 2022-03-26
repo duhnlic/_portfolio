@@ -20,7 +20,7 @@ export default function AboutMe(){
             <NavBar/>
             <ReactTooltip/>
             <div className="about-content">
-                <img src="https://bstewart-portfolio.s3.us-east-2.amazonaws.com/drrk%3Agreen.JPG" className="profile-pic"  alt="portrait"></img>
+                <img src="https://bstewart-portfolio.s3.us-east-2.amazonaws.com/IMG_8711.JPG" className="profile-pic"  alt="portrait"></img>
                 <div className="about-section">
                     <p className="description">	Full Stack Developer with knowledge in HTML, CSS, JavaScript, Python, ReactJS, NodeJS, SQL, Express, MongoDB/Mongoose, and Django. An asset that can see the big picture from the start. I spearhead the tasks given to me to ensure a quality product is being created. I specialize in React and database structures. I work well with other collaborators because I have a large scope of development without losing the detailed scope of each design element. </p>
                     <div className="about-x-links">
